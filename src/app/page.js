@@ -1,75 +1,7 @@
-import "./todo.css";
+
+import TodoChecklist from "./components/TodoChecklist";
 
 export default function Home() {
-  return (
-    <div>
-      <label className="checkbox-label">
-        <input type="checkbox" className="checkbox" />
-        <div className="svg-icon">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="1em"
-            viewBox="0 0 448 512"
-          >
-            <path
-              d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"
-            ></path>
-          </svg>
-        </div>
-        <span className="container"></span>
-        One
-      </label>
-
-      <label className="checkbox-label">
-        <input type="checkbox" className="checkbox" />
-        <div className="svg-icon">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="1em"
-            viewBox="0 0 448 512"
-          >
-            <path
-              d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"
-            ></path>
-          </svg>
-        </div>
-        <span className="container"></span>
-        Two
-      </label>
-
-      <label className="checkbox-label">
-        <input type="checkbox" className="checkbox" />
-        <div className="svg-icon">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="1em"
-            viewBox="0 0 448 512"
-          >
-            <path
-              d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"
-            ></path>
-          </svg>
-        </div>
-        <span className="container"></span>
-        Three
-      </label>
-
-      <label className="checkbox-label">
-        <input type="checkbox" className="checkbox" />
-        <div className="svg-icon">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="1em"
-            viewBox="0 0 448 512"
-          >
-            <path
-              d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"
-            ></path>
-          </svg>
-        </div>
-        <span className="container"></span>
-        Four
-      </label>
-    </div>
-  );
+  return <TodoChecklist />;
+  
 }
